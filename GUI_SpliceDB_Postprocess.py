@@ -117,6 +117,7 @@ if __name__=='__main__':
 
 	root = Tkinter.Tk()
 	SpliceDB_Postprocess_GUI(root).pack()
+	root.wm_title("SpliceDB search post processing GUI")
 	root.mainloop()
 
 
